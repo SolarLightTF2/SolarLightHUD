@@ -1,0 +1,158 @@
+"Resource/UI/StreamListPanel.res"
+{	
+	"SolarStreamBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SolarStreamBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"f0"
+		"fillcolor"		"0 0 0 200"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}	
+	
+	"SolarStreamTltleBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SolarStreamTitleBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"20"
+		"fillcolor"		"SolarMenuYellow"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}	
+	
+	"LiveStreamsTitle"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"	"LiveStreamsTitle"
+		"xpos"	"0"
+		"ypos"	"0"
+		"zpos"	"2"
+		"wide"	"246"
+		"tall"	"20"
+		"visible"	"1"
+		"enabled"	"1"
+		"labelText"	"#MMenu_Stream_LiveStream"
+		"textAlignment"	"center"
+		"fgcolor"	"0 0 0 255"
+		"font"	"Futura16"
+	}
+	
+	"Stream1"
+	{
+		"ControlName"	"CTFStreamPanel"
+		"fieldName"		"Stream1"
+		"xpos"			"5"
+		"ypos"			"30"
+		"wide"			"236"
+		"tall"			"40"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+	}
+
+	"Stream2"
+	{
+		"ControlName"	"CTFStreamPanel"
+		"fieldName"		"Stream2"
+		"xpos"			"5"
+		"ypos"			"72"
+		"wide"			"236"
+		"tall"			"40"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+	}
+
+	"Stream3"
+	{
+		"ControlName"	"CTFStreamPanel"
+		"fieldName"		"Stream3"
+		"xpos"			"5"
+		"ypos"			"114"
+		"wide"			"236"
+		"tall"			"40"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+	}
+
+	"Stream4"
+	{
+		"ControlName"	"CTFStreamPanel"
+		"fieldName"		"Stream4"
+		"xpos"			"5"
+		"ypos"			"156"
+		"wide"			"236"
+		"tall"			"40"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+	}
+
+	"Stream5"
+	{
+		"ControlName"	"CTFStreamPanel"
+		"fieldName"		"Stream5"
+		"xpos"			"5"
+		"ypos"			"198"
+		"wide"			"236"
+		"tall"			"40"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+	}
+
+	"Stream_URLButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Stream_URLButton"
+		"xpos"			"78"
+		"ypos"			"243"
+		"wide"			"80"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#MMenu_Stream_ViewMore"
+		"textinsetx"	"20"
+		"use_proportional_insets" "1"
+		"font"			"Futura12"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"command"		"view_more"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+			
+		"defaultFgColor_override" "235 226 202 255"
+		"defaultBgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "235 226 202 255"
+	}	
+}

@@ -1,0 +1,15 @@
+"motd_entries"
+{
+	"last_request_time"	"2099-06-18 00:00:00"
+	"last_request_language"	"english"
+	"1"
+	{
+		"post_time"	"2014-06-18 00:00:00" 
+		"title_english"	""
+		"text_english"	""
+		"url"	"javascript:window.location.assign('http://steamcommunity.com/groups/SolarLightHUD');"
+		"image"	""
+		"header_type"	"2"
+		"header_english"	""
+	}
+}
