@@ -35,7 +35,6 @@
 		"xpos"			"0"
 		"ypos"			"0"	[$WIN32]
 		"tall"			"0"	[$WIN32]
-		"tall_minmode"	"0"		
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -53,7 +52,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"tabPosition"		"0"
 	}
@@ -62,16 +60,16 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"64"	[$WIN32]
+		"ypos"			"r140"	[$WIN32]
 		"wide"			"600"	[$WIN32]
-		"tall"			"18"
+		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Asimov16"
+		"font"			"Asimov24"
 		"fgcolor_override"	"255 255 255 255"
 	}
 	
@@ -101,16 +99,12 @@
 		"font_hidef"		"HudFontMedium"
 		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"	[$WIN32]
-		"xpos"			"r285"	[$X360]
-		"ypos"			"32"	[$X360]
 		"wide"			"240"	[$WIN32]
-		"wide"			"220"	[$X360]
 		"tall"			"20"
 		"tall_hidef"		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"map: cp_bridge"
 		"textAlignment"		"east"
@@ -138,16 +132,11 @@
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"xpos"			"898"		[$WIN32]
 		"ypos"			"10"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"40"	[$X360]
 		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"east"
@@ -176,16 +165,11 @@
 		"fieldName"		"CycleTargetFwdKeyLabel"
 		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"50"	[$X360]		
 		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"east"
@@ -196,17 +180,12 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
 		"xpos"			"9999"	[$WIN32]
-		"ypos"			"9999"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"60"	[$X360]		
-		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]		
+		"ypos"			"9999"	[$WIN32]	
+		"wide"			"60"	[$WIN32]	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"east"

@@ -304,7 +304,7 @@
 		"tall"	"30"
 		"visible"	"1"
 		"enabled"	"1"
-		"labelText"	"Last updated June 9th, 2018"
+		"labelText"	"Last updated June 11th, 2018"
 		"textAlignment"	"west"
 		"fgcolor"	"255 255 255 255"
 		"font"	"Asimov12"

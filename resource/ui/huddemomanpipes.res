@@ -31,7 +31,6 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"0"
-		"visible_minmode"		"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Charge"
