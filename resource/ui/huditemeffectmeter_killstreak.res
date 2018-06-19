@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r63"	[$WIN32]
-		"ypos"			"22"	[$WIN32]
+		"ypos"			"29"	[$WIN32]
 		"wide"			"50"
 		"tall"			"16"
 		"MeterFG"		"White"
@@ -43,7 +43,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/logos/menutextures/killstreakimage"
+		"image"			"logos/menutextures/killstreakimage"
 		"scaleImage"	"1"				
 	}
 	

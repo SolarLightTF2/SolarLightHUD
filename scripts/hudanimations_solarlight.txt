@@ -2,7 +2,7 @@
 event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthValue		fgcolor		"0 161 0 255"	Linear 0.0 0.75
-	Animate	PlayerStatusHealthValue		fgcolor		"255 255 255 255"	Linear 0.85 0.75
+	Animate	PlayerStatusHealthValue		fgcolor		"137 211 137 255"	Linear 0.85 0.75
 	Animate	PlayerStatusHealthValueNoHurtAnim		fgcolor		"0 161 0 255"	Linear 0.0 0.75
 	Animate	bgoverheal			fgcolor		"0 161 0 255"	Linear 0.0 0.75
 	RunEvent HudHealthBonusPulseLoop	1.70
@@ -29,7 +29,7 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthValue		fgcolor		"161 0 0 255"	Linear 0.0 0.75
-	Animate	PlayerStatusHealthValue		fgcolor		"255 255 255 255"	Linear 0.85 0.75
+	Animate	PlayerStatusHealthValue		fgcolor		"211 137 127 255"	Linear 0.85 0.75
 	RunEvent HudHealthDyingPulseLoop	1.70
 }
 
@@ -51,13 +51,13 @@ event HudHealthDyingPulseStop
 event HudLowAmmoPulse
 {
 	Animate	AmmoInClip		fgcolor		"161 0 0 255"	Linear 0.0 0.75
-	Animate	AmmoInClip		fgcolor		"255 255 255 255"	Linear 0.85 0.75
+	Animate	AmmoInClip		fgcolor		"211 137 127 255"	Linear 0.85 0.75
 
 	Animate	AmmoInReserve		fgcolor		"161 0 0 255"	Linear 0.0 0.75
-	Animate	AmmoInReserve		fgcolor		"255 255 255 255"	Linear 0.85 0.75
+	Animate	AmmoInReserve		fgcolor		"211 137 127 255"	Linear 0.85 0.75
 
 	Animate	AmmoNoClip		fgcolor		"161 0 0 255"	Linear 0.0 0.75
-	Animate	AmmoNoClip		fgcolor		"255 255 255 255"	Linear 0.85 0.75
+	Animate	AmmoNoClip		fgcolor		"211 137 127 255"	Linear 0.85 0.75
 	
 	RunEvent HudLowAmmoPulseLoop	1.70
 }
@@ -83,7 +83,7 @@ event HudLowAmmoPulseStop
 event OvertimeLabelPulseRed
 {
 	Animate	OvertimeLabel 	FgColor		"161 0 0 255"	Linear 0.0 0.75
-	Animate	OvertimeLabel 	FgColor		"255 255 255 255"	Linear 0.85 0.75
+	Animate	OvertimeLabel 	FgColor		"211 137 127 255"	Linear 0.85 0.75
 
 	RunEvent OvertimeLabelPulseRed 1.70
 }
@@ -158,7 +158,7 @@ event HudTournament_AnimateTeams_Out
 event HudReadyPulse
 {
 	Animate	TournamentInstructionsLabel 	FgColor		"161 0 0 255"	Linear 0.0 0.75
-	Animate	TournamentInstructionsLabel 	FgColor		"255 255 255 255"	Linear 0.85 0.75
+	Animate	TournamentInstructionsLabel 	FgColor		"211 137 127 255"	Linear 0.85 0.75
 
 	RunEvent HudReadyPulseLoop	1.70
 }
