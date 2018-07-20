@@ -17,7 +17,7 @@ Invite link: https://discord.gg/JQTVmFK
 
 Significant update! This update focuses on the in-game HUD, with menus being secondary.
 
-Not everything has been tested extensively. Please give feedback if you find any bugs! Our Discord is the best way to submit bugs:
+Not everything has been tested extensively. Please give feedback if you find any bugs! Our Discord is the best way to submit bugs.
 
 
 Important changes:
