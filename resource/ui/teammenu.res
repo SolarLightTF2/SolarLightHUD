@@ -14,7 +14,27 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-
+	
+	"SelectTeamLabelSolar" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SelectTeamLabelSolar"
+		"xpos"			"c-100"
+		"ypos"			"c-135"
+		"zpos"			"10"
+		"wide"			"200"
+		"tall"			"28"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_SelectATeam"
+		"textAlignment"	"center"
+		"font"			"Futura24"
+		"fgcolor"		"TanLight"
+	}
+	
 	"SysMenu"
 	{
 		"ControlName"	"Menu"
@@ -89,28 +109,6 @@
 		"enabled"		"0"
 	}
 	
-	"CancelButton" [$WIN32] 
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
-		"xpos"			"r190"
-		"ypos"			"r40"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Cancel"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"cancelmenu"
-		"font"			"Futura20"
-	}
-	
 	"TeamMenuSelect"
 	{
 		"ControlName"	"CExLabel"
@@ -152,48 +150,226 @@
 		"enabled"		"0"
 	}		
 	
+	"BlueCountIcon"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"BlueCountIcon"
+		"xpos"			"c-250"
+		"ypos"			"c-92"
+		"zpos"			"3"
+		"wide"			"12"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/capture_icon_white"	
+		"scaleImage"		"1"	
+	}	
+	
 	"BlueCount"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
-		"xpos"			"c-155"
-		"ypos"			"c-43"
-		"zpos"			"1"
+		"xpos"			"c-235"
+		"ypos"			"c-92"
+		"zpos"			"3"
 		"wide"			"150"
-		"tall"			"30"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%bluecount%"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"Futura32"
 		"fgcolor"		"White"
 	}		
 	
+	"RedCountIcon"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"RedCountIcon"
+		"xpos"			"c238"
+		"ypos"			"c-92"
+		"zpos"			"3"
+		"wide"			"12"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/capture_icon_white"	
+		"scaleImage"		"1"	
+	}
+	
 	"RedCount"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
-		"xpos"			"c5"
-		"ypos"			"c-43"
-		"zpos"			"1"
+		"xpos"			"c85"
+		"ypos"			"c-92"
+		"zpos"			"3"
 		"wide"			"150"
-		"tall"			"30"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%redcount%"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"Futura32"
 		"fgcolor"		"White"
 	}	
+
+	"BLUDeselected" //button texture when deselected, is a non-functioning image
+	{
+		"controlname"		"EditablePanel"
+		"fieldName"			"BLUDeselected"
+		"xpos"				"c-260"
+		"ypos"				"c-100"
+		"zpos"				"1"
+		"wide"				"250"
+		"tall"				"250"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"Image"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"Image"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"				"250"
+			"tall"				"250"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/teamselect_blu_deselected"
+		}
+	}
+	"BLUSelected" //button texture when selected, hidden until mouseover
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"BLUSelected"
+		"xpos"				"c-260"
+		"ypos"				"c-100"
+		"zpos"				"2"
+		"wide"				"250"
+		"tall"				"250"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"jointeam blue"
+		"labeltext"			"&1"
+		"font"				"blank"
+		"scaleImage"		"1"
+
+		"border"			"noborder"
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
+		"paintbackground"	"1"
+			
+		"defaultFgColor_override" 	"0 0 0 0"
+		"armedFgColor_override" 	"0 0 0 0"
+		"depressedFgColor_override" "0 0 0 0"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+
+		"image_drawcolor"			"0 0 0 0"
+		"image_armedcolor"			"255 255 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"				"250"
+			"tall"				"250"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/teamselect_blu_selected"
+		}
+	}
 	
+	"REDDeselected" //button texture when deselected, is a non-functioning image
+	{
+		"controlname"		"EditablePanel"
+		"fieldName"			"REDDeselected"
+		"xpos"				"c10"
+		"ypos"				"c-100"
+		"zpos"				"1"
+		"wide"				"250"
+		"tall"				"250"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"Image"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"Image"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"				"250"
+			"tall"				"250"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/teamselect_red_deselected"
+		}
+	}
+	"REDSelected" //button texture when selected, hidden until mouseover
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"REDSelected"
+		"xpos"				"c10"
+		"ypos"				"c-100"
+		"zpos"				"2"
+		"wide"				"250"
+		"tall"				"250"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"jointeam red"
+		"labeltext"			"&1"
+		"font"				"blank"
+		"scaleImage"		"1"
+
+		"border"			"noborder"
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
+		"paintbackground"	"1"
+			
+		"defaultFgColor_override" 	"0 0 0 0"
+		"armedFgColor_override" 	"0 0 0 0"
+		"depressedFgColor_override" "0 0 0 0"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+
+		"image_drawcolor"			"0 0 0 0"
+		"image_armedcolor"			"255 255 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"				"250"
+			"tall"				"250"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/teamselect_red_selected"
+		}
+	}
+
 	"bluedoor"
 	{
 		"ControlName"	"CModelPanel"
@@ -329,56 +505,13 @@
 		"scaleImage"	"1"	
 	}
 	
-	"SolarBLUTeamButton" [$WIN32] 
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"SolarBLUTeamButton"
-		"xpos"			"c-155"
-		"ypos"			"c-15"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_BlueTeam_Name"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"jointeam blue"
-		"font"			"Futura20"
-	}
-	
-	"SolarREDTeamButton" [$WIN32] 
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"SolarREDTeamButton"
-		"xpos"			"c5"
-		"ypos"			"c-15"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_RedTeam_Name"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"jointeam red"
-		"font"			"Futura20"
-	}
 	
 	"SolarSpectateButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"SolarSpectateButton"
 		"xpos"			"c-75"
-		"ypos"			"c18"
+		"ypos"			"c160"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -392,6 +525,50 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam spectate"
+		"font"			"Futura20"
+	}
+	
+	"SolarAutoSelectButton" [$WIN32] 
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"SolarAutoSelectButton"
+		"xpos"			"c-260"
+		"ypos"			"c160"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_AutoTeamSelect"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"jointeam auto"
+		"font"			"Futura20"
+	}
+	
+	"CancelButton" [$WIN32] 
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelButton"
+		"xpos"			"c110"
+		"ypos"			"c160"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_Cancel_NoKey"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"cancelmenu"
 		"font"			"Futura20"
 	}
 	

@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/icon_obj_cap_red"
+	"$basetexture" "vgui/replay/thumbnails/solar_payload_neutral"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1

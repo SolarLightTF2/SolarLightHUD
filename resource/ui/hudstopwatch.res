@@ -100,8 +100,23 @@
 		"fillcolor"		"0 0 0 200"
 		"autoResize"	"0"
 		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	"Fade"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"Fade"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"120"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/winpanelfade"	
+		"scaleImage"		"1"	
+		"alpha"			"255"
 	}
 	"StopWatchPointsLabel"
 	{
@@ -155,7 +170,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/bgtransparent"
+		"image"			"../vgui/replay/thumbnails/winpanelfade"
 
 
 		"src_corner_height"	"2"				// pixels inside the image

@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/icon_obj_cap_blu"
+	"$basetexture" "vgui/replay/thumbnails/cart_arrow_left"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1

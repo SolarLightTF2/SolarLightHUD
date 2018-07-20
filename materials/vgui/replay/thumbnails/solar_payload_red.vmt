@@ -1,9 +1,10 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/logos/menutextures/faceitbg"
+	"$basetexture" "vgui/replay/thumbnails/solar_payload_red"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1
 	"%keywords" "tf"
 	"$translucent" 1
 }
+

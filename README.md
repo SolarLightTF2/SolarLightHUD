@@ -3,7 +3,59 @@ A clean HUD for TF2.
 
 This is a WIP, so expect to see some remnants of the stock HUD and some unfinished elements.
 
-More screenshots: https://imgur.com/a/YFsomEJ
+# What does it look like?
+
+Screenshots here: https://imgur.com/a/fNbgnk2
+
+# Join our Discord!
+
+We have a Discord for bug reporting, feedback and discussion.
+
+Invite link: https://discord.gg/JQTVmFK
+
+# July 20th 2018 update:
+
+Significant update! This update focuses on the in-game HUD, with menus being secondary.
+
+Not everything has been tested extensively. Please give feedback if you find any bugs! Our Discord is the best way to submit bugs:
+
+
+Important changes:
+
+* The main menu's Steam Group link has been changed to link to a Discord instead. The Discord will allow for easier communication regarding feedback and future updates. The Steam Group will still be used to announce updates
+
+* Added a new minmode option! It reduces the font size of several HUD elements (most prominently health and ammo). It partially resembles an old unreleased HUD I made and used in 2015
+
+* Added an button on the main menu (left side) that toggles between normal mode and minmode
+
+* Team selection menu has been recreated
+
+* A new Payload HUD has been created to replace the default one. Also applies to Payload Race
+
+* The round win panel has been overhauled, now features the MVPs of the round (by avatar and class only, to reduce clutter).
+
+* Some of the HUD elements (setup label, winpanel, stopwatch mode label etc.) are using new gradient texturing.
+
+* Medic charge meters now appear more consistent with the rest of the HUD meters (minimalistic, near the crosshair)
+
+
+Misc. changes:
+
+* Fixed an oversight with "Respawning in X seconds" text in tournament mode. Now consistent with other modes
+
+* Buff/debuff icons near health are now smaller and shouldn't overlap anything anymore
+
+* Background from Engineer metal count has been removed for visual consistency
+
+* Vita-saw organ counter has been relocated to the middle, to match the Engineer metal count
+
+* Shadows have been added to several of the HUD counter text (Engineer metal count, Vita-saw organ counter, Eyelander head counter and so on)
+
+* Removed custom capture point progress bars because they weren't working in sv_pure enabled servers, even when preloaded. Everything else regarding the control point icons remains the same
+
+* Attempted to fix menu backgrounds being affected by low texture settings
+
+* Deleted several unused textures that were leftovers from development. RIP unused Faceit Button
 
 # June 19th 2018 update:
 

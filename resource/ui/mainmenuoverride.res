@@ -304,7 +304,7 @@
 		"tall"	"30"
 		"visible"	"1"
 		"enabled"	"1"
-		"labelText"	"Last updated June 19th, 2018"
+		"labelText"	"Last updated July 20th, 2018"
 		"textAlignment"	"west"
 		"fgcolor"	"255 255 255 255"
 		"font"	"Asimov12"
@@ -1177,7 +1177,7 @@
 				"tall"         "32"
 				"visible"      "1"
 				"enabled"      "1"
-				"image"        "../vgui/logos/menutextures/steambutton"
+				"image"        "../vgui/logos/menutextures/discordbutton"
 				"scaleImage"   "1"
 			}
 			
@@ -1272,22 +1272,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}	
-		
-		"FaceitBG"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"FaceitBG"
-			"xpos"			"c-250"
-			"ypos"			"c-100"
-			"zpos"			"-12"
-			"wide"			"200"
-			"tall"			"200"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"../vgui/logos/menutextures/faceitbg"
-			"scaleImage"	"1"
-			"mouseinputenabled"	"0"
-		}	
 	
 		"FaceitText"
 		{
@@ -1314,10 +1298,10 @@
 			"ypos"	"10"
 			"zpos"	"2"
 			"wide"	"140"
-			"tall"	"55"
+			"tall"	"75"
 			"visible"	"1"
 			"enabled"	"1"
-			"labelText"	"Don't forget to stay updated! The SolarLightHUD Steam Group is useful for checking up on updates, or for submitting feedback."
+			"labelText"	"Don't forget to stay updated! The SolarLight Discord Group has dedicated sections for HUD updates and HUD discussion. Submit your feedback or see how development is going!"
 			"textAlignment"	"west"
 			"wrap"	"1"
 			"fgcolor"	"255 255 255 255"
@@ -1335,7 +1319,7 @@
 			"tall"	"35"
 			"visible"	"1"
 			"enabled"	"1"
-			"labelText"	"(If this button doesn't work at first, try opening multiple tabs in the Steam overlay at once. Valve pls fix.)"
+			"labelText"	"(The link will open in the Steam overlay. If it doesn't work at first, try making it open multiple tabs at once. Valve pls fix.)"
 			"textAlignment"	"west"
 			"wrap"	"1"
 			"fgcolor"	"255 255 255 255"
@@ -1549,7 +1533,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"Open Steam Group"
+			"labelText"		"Join Discord Server"
 			"textinsetx"	"20"
 			"use_proportional_insets" "1"
 			"font"			"Futura12"
@@ -3197,6 +3181,55 @@
 			"image"			""
 		}
 	}		
+
+	"SolarMinmodeButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"SolarMinodeButton"
+		"xpos"				"20"
+		"ypos"				"238"
+		"zpos"				"2"
+		"wide"				"150"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"engine toggle cl_hud_minmode 0 1"
+		"labeltext"			"Toggle Minmode"
+		"font"				"Futura16"
+		"scaleImage"		"1"
+
+		"border"			"noborder"
+		"border_default"	"noborder"
+		"border_armed"		"SolarMainMenuButtonHighlight"
+		"paintbackground"	"1"
+			
+		"defaultFgColor_override" 	"255 255 255 255"
+		"armedFgColor_override" 	"0 0 0 255"
+		"depressedFgColor_override" "255 255 255"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+
+		"image_drawcolor"			"0 0 0 0"
+		"image_armedcolor"			"255 255 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"150"
+			"tall"			"20"
+			"scaleImage"	"1"
+			"visible"		"0"
+			"enabled"		"0"
+
+			"image"			""
+		}
+	}	
 
 	"TF2AchievementsButton1"
 	{

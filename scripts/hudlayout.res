@@ -16,10 +16,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-38"	[$WIN32]
-		"ypos"	"c44"	[$WIN32]
-		"wide"	"200"
-		"tall"	"200"
+		"xpos"			"c-125"		[$WIN32]
+		"ypos"			"c45"	[$WIN32]
+		"wide"			"300"
+		"tall"			"120"
 	}
 	
 	HudObjectiveStatus
@@ -66,9 +66,9 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-29"	[$WIN32]
-		"ypos"			"c75"	[$WIN32]
-		"wide"			"200"
+		"xpos"			"c-20"	[$WIN32]
+		"ypos"			"c9"	[$WIN32]
+		"wide"			"40"
 		"tall"			"100"
 	}
 	
@@ -167,7 +167,8 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-30"	[$WIN32]
-		"ypos"					"c60"	[$WIN32]
+		"ypos"					"c65"	[$WIN32]
+		"ypos_minmode"					"c57"	[$WIN32]
 		"wide"					"60"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -180,6 +181,8 @@
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"c-110"
 		"ypos"					"c20"
+		"xpos_minmode"			"c-120"
+		"ypos_minmode"			"c20"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -819,7 +822,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-275"
-		"ypos"					"47"
+		"ypos"					"-2"
 		"wide"					"550"
 		"tall"					"300"
 		"zpos"					"4"
@@ -992,6 +995,7 @@
 		"enabled"		"1"
 		"xpos"			"c-68"	[$WIN32]
 		"ypos"			"c20"	[$WIN32]
+		"ypos_minmode"			"c12"	[$WIN32]
 		"wide"			"100"
 		"tall"			"150"
 	}	

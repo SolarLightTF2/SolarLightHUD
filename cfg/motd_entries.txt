@@ -7,7 +7,7 @@
 		"post_time"	"2014-06-18 00:00:00" 
 		"title_english"	""
 		"text_english"	""
-		"url"	"javascript:window.location.assign('http://steamcommunity.com/groups/SolarLightHUD');"
+		"url"	"javascript:window.location.assign('https://discord.gg/JQTVmFK');"
 		"image"	""
 		"header_type"	"2"
 		"header_english"	""

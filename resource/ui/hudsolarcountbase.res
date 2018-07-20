@@ -93,4 +93,25 @@
 		"font"					"Futura16"
 		"fgcolor_override"		"255 255 255 255"
 	}
+	
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		"xpos"					"1"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"41"
+		"tall"					"21"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"Futura16"
+		"fgcolor_override"		"0 0 0 200"
+	}
 }
