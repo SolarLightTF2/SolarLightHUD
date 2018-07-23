@@ -26,7 +26,7 @@
 		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../vgui/replay/thumbnails/bgtransparent"	
+		"image"			"replay/thumbnails/bgtransparent"	
 		"scaleImage"		"1"	
 	}	
 	
@@ -57,7 +57,7 @@
 		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/bgtransparent"	
+		"image"			"replay/thumbnails/bgtransparent"	
 		"scaleImage"		"1"	
 		
 		"if_single_with_hills"
@@ -388,15 +388,15 @@
 		{
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"CapPlayerImage"
-			"xpos"			"216"
+			"xpos"			"9999"
 			"ypos"			"16"
 			"zpos"			"4"
 			"wide"			"10"
 			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		""
 			"image"			"../vgui/replay/thumbnails/cart_arrow_right"

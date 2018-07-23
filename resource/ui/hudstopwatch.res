@@ -114,7 +114,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/winpanelfade"	
+		"image"			"replay/thumbnails/winpanelfade"	
 		"scaleImage"		"1"	
 		"alpha"			"255"
 	}
@@ -170,7 +170,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/winpanelfade"
+		"image"			"replay/thumbnails/winpanelfade"
 
 
 		"src_corner_height"	"2"				// pixels inside the image

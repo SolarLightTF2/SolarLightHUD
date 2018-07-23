@@ -13,6 +13,18 @@ We have a Discord for bug reporting, feedback and discussion.
 
 Invite link: https://discord.gg/JQTVmFK
 
+# July 23rd 2018 OPTIONAL update:
+
+This is an OPTIONAL bug fix update for those experiencing annoying bugs with the newest SolarLightHUD version. You may safely ignore it if you are not affected by these bugs.
+
+* Attempted to fix the missing texture issues that certain users were experiencing. Please let me know if the issue persists
+
+* Fixed the Payload Race UI cutting off. Was noticable when the cart was close to the end of the track
+
+* Removed 'cart moving right' icon from the Payload Race UI because it wasn't working as intended
+
+* Fixed Build, Destroy and Disguise menu BGs disappearing when the new minmode is enabled
+
 # July 20th 2018 update:
 
 Significant update! This update focuses on the in-game HUD, with menus being secondary.

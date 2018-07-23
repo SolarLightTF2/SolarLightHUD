@@ -130,7 +130,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/winpanelfade"	
+		"image"			"replay/thumbnails/winpanelfade"	
 		"scaleImage"		"1"	
 	}
 	"SuddenDeathLabel"
@@ -172,7 +172,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/winpanelfade"	
+		"image"			"replay/thumbnails/winpanelfade"	
 		"scaleImage"		"1"	
 	}	
 	"SetupLabel"
@@ -205,7 +205,7 @@
 		"tall"			"16"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/winpanelfade"	
+		"image"			"replay/thumbnails/winpanelfade"	
 		"scaleImage"		"1"	
 	}
 	"ServerTimeLimitLabel"
@@ -242,7 +242,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/winpanelfade"	
+		"image"			"replay/thumbnails/winpanelfade"	
 		"scaleImage"		"1"	
 	}
 }

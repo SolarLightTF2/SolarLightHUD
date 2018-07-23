@@ -19,7 +19,6 @@
 		"zpos"			"0"
 		"wide"			"154"
 		"tall"			"85"
-		"tall_minmode"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../vgui/replay/thumbnails/bgtransparent"	

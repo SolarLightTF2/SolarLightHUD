@@ -12,7 +12,7 @@
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/winpanelfade"	
+		"image"			"replay/thumbnails/winpanelfade"	
 		"scaleImage"		"1"	
 		"alpha"			"255"
 	}
@@ -28,7 +28,7 @@
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/winpanelfade"	
+		"image"			"replay/thumbnails/winpanelfade"	
 		"scaleImage"		"1"	
 		"alpha"			"190"
 	}
@@ -44,7 +44,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/winpanelfade"	
+		"image"			"replay/thumbnails/winpanelfade"	
 		"scaleImage"		"1"	
 		"alpha"			"200"
 	}
