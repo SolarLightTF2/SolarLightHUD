@@ -13,6 +13,20 @@ We have a Discord for bug reporting, feedback and discussion.
 
 Invite link: https://discord.gg/JQTVmFK
 
+# Known issues
+
+* Pip-boy Engineer HUD does not work correctly
+
+* Killcam HUD is unfinished
+
+* TargetID killstreak icon and ammo icon are misplaced
+
+* Main menu casual/competitive medal does not like certain resolutions
+
+* Menu backgrounds do not support ultrawide
+
+I will fix these issues whenever I have time.
+
 # July 23rd 2018 OPTIONAL update:
 
 This is an OPTIONAL bug fix update for those experiencing annoying bugs with the newest SolarLightHUD version. You may safely ignore it if you are not affected by these bugs.
